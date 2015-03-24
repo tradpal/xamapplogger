@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XamAppLogger.Droid", "XamAppLogger.Droid\XamAppLogger.Droid.csproj", "{0C538B30-BC39-4D2B-9D50-637B885A2DD0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "XamAppLogger", "XamAppLogger", "{FFDCE1EA-47F8-4AC4-A4E9-B63A58501B58}"
+	ProjectSection(SolutionItems) = preProject
+		AppWatch.cs = AppWatch.cs
+		Logger.cs = Logger.cs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Interfaces", "Interfaces", "{40EDD6AF-E68A-445B-987D-FD5AC0472CC6}"
+	ProjectSection(SolutionItems) = preProject
+		IFileManager.cs = IFileManager.cs
+		ILogger.cs = ILogger.cs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Entities", "Entities", "{DB429255-1A6A-4DE2-ABC1-7DA36C810009}"
+	ProjectSection(SolutionItems) = preProject
+		LogSeverity.cs = LogSeverity.cs
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0C538B30-BC39-4D2B-9D50-637B885A2DD0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0C538B30-BC39-4D2B-9D50-637B885A2DD0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0C538B30-BC39-4D2B-9D50-637B885A2DD0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0C538B30-BC39-4D2B-9D50-637B885A2DD0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{40EDD6AF-E68A-445B-987D-FD5AC0472CC6} = {FFDCE1EA-47F8-4AC4-A4E9-B63A58501B58}
+		{DB429255-1A6A-4DE2-ABC1-7DA36C810009} = {FFDCE1EA-47F8-4AC4-A4E9-B63A58501B58}
+	EndGlobalSection
+EndGlobal
